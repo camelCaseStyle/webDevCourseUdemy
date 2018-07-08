@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn EMV</title>
+	<link rel="stylesheet" type="text/css" href="emv.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
+</head>
+<body>
+	<div class="navbar nav  navbar-inverse navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand"><i class="fas fa-microchip"></i> LearnEMV</a>
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+      			</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="collapse1">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="#">TVR</a></li>
+					<li><a href="#">TSI</a></li>
+					<li><a href="#">TAC</a></li>
+					<li><a href="#">CDOL</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+					<li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"> 
+				<div class="jumbotron">
+					<h1>Lets learn EMV!</h1>
+					<p>This site offers tools for calculating the TVR, TSI, TAC and other EMV goodies. All this while, it also aims to help you learn more about how EMV works.</p>
+					<button type="button" class="btn-default btn btn-lg" aria-label="Left Align">
+						<a href="#">Take me to Wiki!</a>
+
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="thumbnail">
+
+					<h3>TVR</h3>
+					<div class="caption">
+					<p>TVR stands for transaction verification result. The TVR is a series of bits set by the terminal reading an EMV card, based on logical tests (for example has the card expired).
+					</p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="thumbnail">
+					<h3>TAC</h3>
+				<div class ="caption">
+					<p>TSI stands for transaction action code. The terminal has to decides either to proceed the transaction offline, to go online or to reject the transaction.</p>
+				</div>
+			</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="thumbnail">
+					<h3>TSI</h3>
+					<div class ="caption">
+						<p>TSI stands for transaction status indicator. Indicates the functions performed in a transaction</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="thumbnail">
+					<h3>CDOL</h3>
+					<div class ="caption">
+						<p>CDOL stands for Card Risk Management Data Object List</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+</html>

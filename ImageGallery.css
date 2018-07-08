@@ -1,0 +1,19 @@
+.navColor{
+	background-color: #535353;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.jumbotron{
+	margin-top: 7%;
+}
+
+img:hover{
+	transform: scale(1.1);
+	transition: ease-in-out .2s;
+}
