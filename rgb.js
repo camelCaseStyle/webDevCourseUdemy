@@ -9,7 +9,6 @@ var easySelected = false;
 var heading = document.querySelector('h1');
 
 
-
 assignRandomColours();
 var pickedColor = pickColorForChoosing();
 
